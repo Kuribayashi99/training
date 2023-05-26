@@ -16,7 +16,7 @@ class BlogPost(models.Model):
         auto_now_add=True
         )
     category = models.CharField(
-        verbose_name='カテゴリ',
+        verbose_name='カテゴリー',
         max_length=500,
         choices=CATEGORY
         )
